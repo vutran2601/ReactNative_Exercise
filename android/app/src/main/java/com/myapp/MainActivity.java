@@ -1,4 +1,4 @@
-package com.reactnative_exercise;
+package com.myapp;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -19,7 +19,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ReactNative_App";
+    return "MyApp";
   }
 
   /**

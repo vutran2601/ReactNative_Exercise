@@ -11,5 +11,5 @@ function IgniteApp() {
   return <App hideSplashScreen={RNBootSplash.hide} />
 }
 
-AppRegistry.registerComponent("ReactNative_App", () => IgniteApp)
+AppRegistry.registerComponent("MyApp", () => IgniteApp)
 export default App

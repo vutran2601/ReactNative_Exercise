@@ -1,10 +1,10 @@
 {
-  "name": "ReactNative_App",
-  "displayName": "ReactNative_App",
+  "name": "MyApp",
+  "displayName": "MyApp",
   "expo": {
-    "name": "ReactNative_App",
-    "slug": "ReactNative_App",
-    "scheme": "reactnative_app",
+    "name": "MyApp",
+    "slug": "MyApp",
+    "scheme": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/app-icon-all.png",
@@ -22,7 +22,7 @@
     ],
     "android": {
       "icon": "./assets/images/app-icon-android-legacy.png",
-      "package": "com.reactnative_exercise",
+      "package": "com.myapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
         "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
@@ -36,7 +36,7 @@
     "ios": {
       "icon": "./assets/images/app-icon-ios.png",
       "supportsTablet": true,
-      "bundleIdentifier": "com.reactnative_exercise",
+      "bundleIdentifier": "com.myapp",
       "splash": {
         "image": "./assets/images/splash-logo-ios-mobile.png",
         "tabletImage": "./assets/images/splash-logo-ios-tablet.png",

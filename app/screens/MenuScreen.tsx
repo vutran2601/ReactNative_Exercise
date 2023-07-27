@@ -1,19 +1,19 @@
-import React, { FC } from "react"
+import React, { FC, useState } from "react"
 import { Text } from "../components"
 import { DemoTabScreenProps } from "../navigators/DemoNavigator"
-import { View } from "react-native"
+import { View, TouchableOpacity } from "react-native"
 import { Icon } from "../components"
 
 const MenuItem = (props: any) => {
     return (
-        <View
+        <TouchableOpacity
             style={{
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 flex: 1,
                 flexBasis: '25%',
-                gap: 3
+                gap: 3,
             }}
         >
             <View
@@ -28,7 +28,7 @@ const MenuItem = (props: any) => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     borderRadius: 15,
-                    backgroundColor: props.mark ? '#eede96' : 'white'
+                    backgroundColor: props.mark ? '#eede96' : 'white',
                 }}
             >
                 <Icon
@@ -40,6 +40,7 @@ const MenuItem = (props: any) => {
                     }}
                 />
             </View>
+
             <Text
                 style={{
                     fontSize: 10,
@@ -51,7 +52,7 @@ const MenuItem = (props: any) => {
             >
                 {props.label}
             </Text>
-        </View>
+        </TouchableOpacity>
     )
 }
 
@@ -103,7 +104,7 @@ const MainMenu = () => {
                     display: 'flex',
                     flexDirection: 'row',
                     flexWrap: 'wrap',
-                    rowGap: 10
+                    rowGap: 10,
                 }}
             >
                 {

@@ -89,7 +89,7 @@ export function DemoNavigator() {
                     tabBarAccessibilityLabel: translate(
                         'demoNavigator.podcastListTab'
                     ),
-                    tabBarLabel: 'Công cụ',
+                    tabBarLabel: 'Scan QR',
                     tabBarIcon: ({ focused }) => (
                         <View
                             style={{
